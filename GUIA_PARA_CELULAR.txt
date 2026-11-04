@@ -1,0 +1,22 @@
+MINHA ESCALA 1.0 — GUIA RÁPIDO
+==============================
+
+O QUE É
+Aplicativo Android independente do Explorador ZIP. Encontra nomes em fotografias de escalas; apresenta a linha encontrada e sugere horários para você conferir.
+
+COMO PREPARAR
+1. Envie o ZIP ORIGINAL pelo ZiptoGit para repositório GitHub novo.
+2. No GitHub, use Actions > Gerar APK Minha Escala.
+3. No resultado verde, baixe o artefato MinhaEscala-APK.
+4. Extraia app-debug.apk e instale.
+5. Abra Minha Escala e selecione uma ou várias fotos.
+6. Pesquise por nome/sobrenome. Use 'Só hoje' para filtrar por data detectada.
+7. Toque em 'Ver foto' para confirmar. Se necessário, salve correção manual.
+8. Favoritos salvam nomes pesquisados para consultas rápidas.
+
+IMPORTANTE
+- O OCR pode errar nomes, números ou colunas. Nunca confie apenas no horário sugerido.
+- Avisos de TREINAMENTO possuem horário do treinamento, que não é automaticamente um turno de trabalho.
+- Se a data automática estiver errada: Fotos importadas > Definir data.
+- Não incluímos nenhuma fotografia de funcionário no ZIP. As fotos importadas ficam só no aparelho, sem internet.
+- O APK ainda precisa ser compilado e testado no Android.
